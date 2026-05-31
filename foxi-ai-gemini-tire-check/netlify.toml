@@ -2,6 +2,10 @@
   publish = "."
   functions = "netlify/functions"
 
+[template.environment]
+  GEMINI_API_KEY = "Paste your Gemini API key from Google AI Studio"
+  GEMINI_MODEL = "gemini-2.5-flash"
+
 [[redirects]]
   from = "/api/analyze-tire"
   to = "/.netlify/functions/analyze-tire"
