@@ -7,6 +7,6 @@
   GEMINI_MODEL = "gemini-2.5-flash"
 
 [[redirects]]
-  from = "/api/analyze-tire"
-  to = "/.netlify/functions/analyze-tire"
+  from = "/api/gemini-tire-check"
+  to = "/.netlify/functions/gemini-tire-check"
   status = 200
